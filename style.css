@@ -1,0 +1,29 @@
+.item img {
+    height: 850px;
+    width: auto;
+}
+
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: navy  !important ;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: navy  !important ;
+}
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
